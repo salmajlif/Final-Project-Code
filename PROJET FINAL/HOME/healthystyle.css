@@ -1,0 +1,322 @@
+body { padding: 0px; margin: 0px;}
+.navbar{ background-color: hwb(0 100% 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    gap: 30px;
+    width: 100vw;
+    height: 15vh;
+    z-index: 2;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+.menu{
+color: #000;
+font-family: Abel;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-decoration: none;
+}
+.logo{
+color: #000;
+font-family: Berkshire Swash;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+}
+
+.dropbtn1 {
+    font-family: Abel;
+    background-color: #ffffff;
+    color: #C60000;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+  .dropbtn2 {
+    font-family: Abel;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+  }
+.dropbtn:hover{
+    text-decoration: underline;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  } 
+.dropdown-content a {
+    font-size: 15px;
+    font-family: Abel;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #C60000; color: #FFF; font-size: 15px;}
+.dropdown:hover .dropdown-content {display: block;font-size: 15px;}
+
+
+.open{
+    margin-top: 120px;
+    text-align: center;
+    color: #C60000;
+}
+
+
+
+.container{
+    display: flex;
+}
+.image{ 
+
+margin-left: 90px;
+width: 53vh;
+height: 53vh;
+position: absolute;
+z-index: 1;
+}
+.lien{
+    color: #000;
+    text-decoration: none;
+}
+.texte{
+font-size: 12px;
+margin-top: 60px;
+margin-left: 250px;
+border-radius: 15px;
+border: 1px solid #C60000;
+background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+width: 450px;
+height: 150px;
+padding-left: 120px;
+position: relative;
+
+}
+
+
+h1{
+    
+    font-family: Aguafina Script;
+}
+
+p{  
+    font-family: Abel;
+}
+
+.texte:hover{
+    font-size: 12px;
+        font-style: italic;
+        color: #FFF;
+        margin-top: 60px;
+        margin-left: 250px;
+        border-radius: 15px;
+        border: 1px solid #000000;
+        background: #C60000;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        width: 450px;
+        height: 150px;
+        padding-left: 120px;
+        position: relative;
+        }
+
+.ele2{
+    width: 50px;
+   height: 70px;
+   color: #C60000;
+   }
+   .ele4{
+   width: 50px;
+      height: 70px;
+      color: #C60000;
+      }
+.elements{
+    display: flex;
+    font-family: Abel;
+}
+.container2{
+    display: flex;
+}
+.image2{ 
+    margin-left: 90px;
+margin-top: 70px;
+width: 56vh;
+height: 50vh;
+position: absolute;
+z-index: 1;
+}
+
+.texte2{
+    font-size: 12px;
+    margin-top: 115px;
+    margin-left: 250px;
+    border-radius: 15px;
+    border: 1px solid #C60000;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 450px;
+    height: 150px;
+    padding-left: 120px;
+    position: relative;
+    
+    }
+    .texte2:hover{
+        font-size: 12px;
+        color: #FFF;
+        margin-top: 115px;
+        margin-left: 250px;
+        border-radius: 15px;
+        border: 1px solid #C60000;
+        background: #C60000;
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+        width: 450px;
+        height: 150px;
+        padding-left: 120px;
+        position: relative;
+        
+        }    
+
+
+.imgfond{
+    position: absolute;
+    width: 80px;
+    margin-left: 856px;
+    
+}
+
+
+.image3{ 
+margin-left: 90px;
+margin-top: 75px;
+width: 56vh;
+height: 45vh;
+position: absolute;
+z-index: 1;
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 100px;
+     background-color: #C60000;
+     height: 50vh
+ }
+ .logoo{
+     color: #ffffff;
+     font-family: Berkshire Swash;
+     font-size: 50px;
+     font-style: normal;
+     font-weight: 400;
+     text-align: center;
+     padding-top: 20px;
+     } 
+ .footertext{
+     display: flex;
+     justify-content:center;
+     gap: 80px;
+     align-items: center;
+ color: #FFF;
+ font-family: Abel;
+ font-size: 11px;
+ }
+ .tit1{
+ color: #FFF;
+ font-family: Abel;
+ font-size: 20px;
+ text-decoration:underline;
+ }
+ .tit2{
+     color: #FFF;
+     font-family: Abel;
+     font-size: 20px;
+     text-decoration:underline;
+     }
+ .tit3{
+  color: #FFF;
+  font-family: Abel;
+  font-size: 20px;
+ text-decoration:underline;
+        }   
+ .boxx{
+     width: 20px;
+     height: 20px;
+     
+ }
+ .footer{
+   
+    background-color: #C60000;
+    height:55vh;
+    
+}
+.logoo{
+    color: #ffffff;
+    font-family: Berkshire Swash;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+    } 
+.footercontent{
+text-align: center;
+color: #FFF;
+font-family: Abel;
+}
+.titlefooter{
+    font-size: 10px;
+    font-style: normal;
+  
+}
+.formulaire{
+   
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin-left: 340px;
+    gap: 5px;
+    font-size: 10px;
+}
+
+input{
+background-color: #FFF; 
+font-family: Abel;
+border: none;
+border-radius: 5px;
+height: 20px;
+width: 250px;
+padding-left: 5px;
+}
+label{
+color: #FFF;
+font-family: Abel;
+padding-left: 5px;   
+}
+.bntfor{
+border-radius: 5px;
+height: 20px;
+width: 100px;
+color: #FFF;
+background-color: #000000; 
+font-family: Abel;
+margin-top: 5px;
+margin-left: 80px;
+font-size: 10px;
+}
